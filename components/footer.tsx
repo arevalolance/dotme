@@ -35,7 +35,7 @@ export function Footer() {
           </Link>
         </div>
         <span className="text-sm font-medium text-black">
-          © 2023 arevalolance.com
+          © 2024 arevalolance.com
         </span>
       </div>
 
