@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default async function About() {
   return (
-    <main className="container mx-auto my-16 lg:w-10/12 xl:w-[60%] 2xl:w-1/2">
+    <main className="container mx-auto my-16 lg:w-10/12 xl:w-3/5 2xl:w-1/2">
       <div className="flex flex-col gap-4">
         <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
           Hi, I&apos;m Lance
@@ -86,7 +86,7 @@ export default async function About() {
         </div>
       </div>
 
-      <hr className="my-8 h-[1px] w-full border-t-[1px] border-dotted border-black" />
+      <hr className="my-8 h-px w-full border-t border-dotted border-black" />
 
       <div className="flex flex-col gap-4">
         <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
@@ -101,7 +101,7 @@ export default async function About() {
                   <td className="m-0 w-[200px] border-spacing-0">
                     <div className="flex">
                       <Link
-                        className="group flex flex-row items-center gap-[1px] text-sm hover:underline"
+                        className="group flex flex-row items-center gap-px text-sm hover:underline"
                         href={""}
                         target="_blank"
                       >
@@ -118,7 +118,7 @@ export default async function About() {
         </div>
       </div>
 
-      <hr className="my-8 h-[1px] w-full border-t-[1px] border-dotted border-black" />
+      <hr className="my-8 h-px w-full border-t border-dotted border-black" />
 
       <div className="flex flex-col gap-4">
         <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
@@ -139,7 +139,7 @@ export default async function About() {
             .map((item) => (
               <Link
                 key={item.title}
-                className="group flex flex-row items-center gap-[1px] text-sm hover:underline"
+                className="group flex flex-row items-center gap-px text-sm hover:underline"
                 href={`/mind/blog/${item.slug}`}
                 target="_blank"
               >

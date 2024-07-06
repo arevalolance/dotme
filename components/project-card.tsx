@@ -70,7 +70,7 @@ export default function ProjectCard({ item }: { item: ProjectCardProps }) {
   return (
     <div
       key={item.name}
-      className="flex flex-col justify-between rounded-lg border-[1px] border-stone-100 bg-stone-50/50 duration-100 ease-in hover:border-stone-200 hover:bg-stone-100/60 hover:shadow-sm md:flex-row md:justify-between"
+      className="flex flex-col justify-between rounded-lg border border-stone-100 bg-stone-50/50 duration-100 ease-in hover:border-stone-200 hover:bg-stone-100/60 hover:shadow-sm md:flex-row md:justify-between"
     >
       <div className="flex justify-end p-2 md:hidden">
         <DropdownLinks links={item.links} />
@@ -99,7 +99,7 @@ export default function ProjectCard({ item }: { item: ProjectCardProps }) {
                     <TooltipTrigger asChild>
                       <Icon
                         icon={tool.icon}
-                        className="h-7 w-7 rounded-md border-[1px] border-gray-200 bg-gray-100 p-1 duration-150 ease-in hover:border-gray-300 hover:bg-gray-200"
+                        className="h-7 w-7 rounded-md border border-gray-200 bg-gray-100 p-1 duration-150 ease-in hover:border-gray-300 hover:bg-gray-200"
                       />
                     </TooltipTrigger>
                     <TooltipContent>{tool.name}</TooltipContent>

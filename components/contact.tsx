@@ -50,7 +50,7 @@ export default function ContactModal() {
   return (
     <Dialog open={isModalOpen} onOpenChange={openModal}>
       <DialogTrigger asChild>
-        <button className="border-gray-300/7 shadow-inner-[1px] hidden rounded-md border-[1px] bg-gray-100 p-2 text-sm font-semibold drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:block">
+        <button className="border-gray-300/7 shadow-inner-[1px] hidden rounded-md border bg-gray-100 p-2 text-sm font-semibold drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:block">
           Contact me
         </button>
       </DialogTrigger>
@@ -86,7 +86,7 @@ export default function ContactModal() {
               href={`mailto:hi@arevalolance.com?&subject=Let's chat!&body=${message}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="border-gray-300/7 shadow-inner-[1px] hidden rounded-md border-[1px] bg-gray-100 p-2 text-center text-sm font-semibold drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:block"
+              className="border-gray-300/7 shadow-inner-[1px] hidden rounded-md border bg-gray-100 p-2 text-center text-sm font-semibold drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:block"
             >
               Send
             </Link>

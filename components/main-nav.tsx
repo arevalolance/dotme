@@ -98,7 +98,7 @@ export function MainNav({ items }: MainNavProps) {
       </div>
 
       <DropdownMenu>
-        <DropdownMenuTrigger className="border-gray-300/7 shadow-inner-[1px] block rounded-md border-[1px] bg-gray-100 p-2 text-sm drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:hidden">
+        <DropdownMenuTrigger className="border-gray-300/7 shadow-inner-[1px] block rounded-md border bg-gray-100 p-2 text-sm drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:hidden">
           <Menu />
         </DropdownMenuTrigger>
         <DropdownMenuContent>

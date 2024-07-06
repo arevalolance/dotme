@@ -67,7 +67,7 @@ export default function MindCard(props: MindComponentProps<MindProps>) {
   switch (data.type) {
     case "Blog":
       return (
-        <div className="group flex h-[300px] flex-col justify-between rounded-lg border-[1px] border-transparent bg-stone-50/50 p-4 duration-100 ease-in focus-within:bg-stone-100/60 hover:border-stone-200 hover:bg-stone-100/60 hover:shadow-sm">
+        <div className="group flex h-[300px] flex-col justify-between rounded-lg border border-transparent bg-stone-50/50 p-4 duration-100 ease-in focus-within:bg-stone-100/60 hover:border-stone-200 hover:bg-stone-100/60 hover:shadow-sm">
           <div className="h-fit w-fit text-sm text-gray-500">
             {data.topic} · {page}
           </div>
@@ -87,7 +87,7 @@ export default function MindCard(props: MindComponentProps<MindProps>) {
     case "Media":
       return (
         <AspectRatio ratio={1 / 1}>
-          <div className="group flex h-full w-full flex-col justify-between gap-4 rounded-lg border-[1px] border-transparent bg-stone-50/50 p-4 duration-100 ease-in focus-within:bg-stone-100/60 hover:border-stone-200 hover:bg-stone-100/60 hover:shadow-sm">
+          <div className="group flex h-full w-full flex-col justify-between gap-4 rounded-lg border border-transparent bg-stone-50/50 p-4 duration-100 ease-in focus-within:bg-stone-100/60 hover:border-stone-200 hover:bg-stone-100/60 hover:shadow-sm">
             <div className="h-fit w-fit text-sm text-gray-500">
               {data.media} · {page}
             </div>
@@ -103,7 +103,7 @@ export default function MindCard(props: MindComponentProps<MindProps>) {
               <div className="flex h-fit flex-col gap-2">
                 <div
                   className={cn(
-                    "w-fit rounded border-[1px] px-2 font-mono text-sm tracking-tight drop-shadow-sm md:mx-0",
+                    "w-fit rounded border px-2 font-mono text-sm tracking-tight drop-shadow-sm md:mx-0",
                     data.status === "Read" || data.status === "Watched"
                       ? "border-green-500 bg-green-400/40"
                       : data.status === "Reading" || data.status === "Watching"

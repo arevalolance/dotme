@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default async function Work() {
   return (
-    <main className="container mx-auto my-14 text-sm lg:w-10/12 xl:w-[60%] 2xl:w-1/2">
+    <main className="container mx-auto my-14 text-sm lg:w-10/12 xl:w-3/5 2xl:w-1/2">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-4">
           <span className="">LANCE AREVALO</span>

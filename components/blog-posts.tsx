@@ -61,7 +61,7 @@ export default function BlogPosts() {
               <div key={post.title} className="group relative cursor-pointer">
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
-                    <TooltipTrigger className="absolute right-0 top-0 m-2 rounded-full border-[1px] border-transparent p-2 shadow-black duration-150 ease-in group-focus-within:border-gray-200 group-focus-within:bg-white group-focus-within:shadow-sm group-hover:border-gray-200 group-hover:bg-white group-hover:shadow-sm">
+                    <TooltipTrigger className="absolute right-0 top-0 m-2 rounded-full border border-transparent p-2 shadow-black duration-150 ease-in group-focus-within:border-gray-200 group-focus-within:bg-white group-focus-within:shadow-sm group-hover:border-gray-200 group-hover:bg-white group-hover:shadow-sm">
                       <Link href={`/mind/blog/${post.slug}`}>
                         <ArrowUpRightIcon className="h-4 w-4" />
                       </Link>
@@ -128,7 +128,7 @@ export default function BlogPosts() {
           />
           <button
             onClick={() => setSearchFilter(searchEntry.toLowerCase())}
-            className="border-gray-300/7 shadow-inner-[1px] rounded-md border-[1px] bg-gray-100 p-2 text-sm font-semibold drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:block"
+            className="border-gray-300/7 shadow-inner-[1px] rounded-md border bg-gray-100 p-2 text-sm font-semibold drop-shadow-sm transition-colors duration-150 hover:border-black/20 hover:ease-in md:block"
           >
             Search
           </button>

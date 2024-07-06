@@ -15,10 +15,10 @@ export default function SectionHeading({
   return (
     <div className="flex flex-row items-center gap-2 ">
       <span className="whitespace-nowrap break-keep">{left}</span>
-      <hr className="h-[1px] w-full border-t-[1px] border-dotted border-black" />
+      <hr className="h-px w-full border-t border-dotted border-black" />
       {link ? (
         <Link
-          className="group flex flex-row items-center gap-[1px] text-right hover:underline sm:whitespace-nowrap"
+          className="group flex flex-row items-center gap-px text-right hover:underline sm:whitespace-nowrap"
           href={link}
           target="_blank"
         >

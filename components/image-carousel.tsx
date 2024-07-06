@@ -73,7 +73,7 @@ export default function ImageCarousel({
               />
             </AspectRatio>
           </div>
-          <div className="mx-auto h-fit w-fit rounded-full border-[1px] border-gray-200 px-3 py-1 text-sm font-semibold shadow-sm">
+          <div className="mx-auto h-fit w-fit rounded-full border border-gray-200 px-3 py-1 text-sm font-semibold shadow-sm">
             {currImageIndex + 1} / {images.length}
           </div>
         </div>

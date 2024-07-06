@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default async function Projects() {
   return (
-    <main className="container mx-auto my-16 flex flex-col gap-y-10 lg:w-10/12 xl:w-[60%] 2xl:w-1/2">
+    <main className="container mx-auto my-16 flex flex-col gap-y-10 lg:w-10/12 xl:w-3/5 2xl:w-1/2">
       <div className="flex flex-col gap-4">
         <div className="mb-4 flex flex-col gap-2">
           <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
