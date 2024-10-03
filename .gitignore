@@ -40,3 +40,6 @@ next-env.d.ts
 
 # Contentlayer
 .contentlayer
+
+# supermaven
+.supermaven
