@@ -52,16 +52,27 @@ export const resume = {
         },
       ],
     },
-  ],
-  now: [
     {
       company: "Focus Global Inc.",
       link: "https://www.linkedin.com/company/focus-global-inc",
-      duration: "2023 - Present",
+      duration: "2023 - 2024",
       responsibilities: [
         {
           title: "Front-end Engineer",
           description: "Building cool tools and websites for Consumer Goods and Home Furnishing companies in Asia.",
+        },
+      ],
+    },
+  ],
+  now: [
+    {
+      company: "Spring Studios",
+      link: "https://www.linkedin.com/company/springstudios",
+      duration: "2024 - Present",
+      responsibilities: [
+        {
+          title: "Full-Stack Engineer",
+          description: "Builder",
         },
       ],
     },

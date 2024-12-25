@@ -1,8 +1,6 @@
 import { Metadata } from "next"
-import Link from "next/link"
 
 import { resume } from "@/types/resume"
-import DownloadResume from "@/components/download-resume"
 import JobSection from "@/components/job-section"
 import SectionHeading from "@/components/section-heading"
 
