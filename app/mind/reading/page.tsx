@@ -12,7 +12,7 @@ const sortOrder = {
 export const metadata: Metadata = {
   title: "Reading",
   description:
-    "I rarely read self-help books. You&apos;ll be surprised on the things I read. Although, I&apos;m planning to read more non-fiction books in the future.",
+    "I need to read more books...",
 }
 
 export default function ReadingPage() {

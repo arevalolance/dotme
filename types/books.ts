@@ -2,10 +2,27 @@ export type Books = typeof books
 
 export const books = [
   {
+    title: "Tao Te Ching",
+    author: "Lao Tzu (translated by Stephen Mitchell)",
+    image: "https://covers.openlibrary.org/b/id/36638-L.jpg",
+    status: "Read",
+    type: "Media",
+    media: "Book",
+  },
+
+  {
+    title: "The Martian",
+    author: "Andy Weir (narrated by Wil Wheaton)",
+    image: "https://covers.openlibrary.org/b/id/14641755-L.jpg",
+    status: "Read",
+    type: "Media",
+    media: "Audiobook",
+  },
+  {
     title: "The Dark Forest",
     author: "Liu Cixin",
     image: "https://covers.openlibrary.org/b/id/0012392944-L.jpg",
-    status: "Reading",
+    status: "DNF",
     type: "Media",
     media: "Book",
   },
